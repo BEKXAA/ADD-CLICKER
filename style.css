@@ -1,0 +1,59 @@
+body {
+ background-color: rgb(255, 255, 144);
+}
+
+.todos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.todo_box {
+  background-color: white;
+  padding: 20px 60px;
+}
+
+.todo_box input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(65, 65, 65);
+  color: rgb(88, 78, 78);
+}
+ul {
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+}
+
+ul li {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(65, 65, 65);
+}
+
+ul li span {
+  color: rgb(88, 78, 78);
+}
+
+.edit_form{
+  background-color: white;
+  padding: 20px;
+}
+
+.none{
+  display: none;
+}
+
+.todo_box button{
+background-color: rgb(79, 79, 255);
+color: white;
+border: none;
+
+}
+
+
+
